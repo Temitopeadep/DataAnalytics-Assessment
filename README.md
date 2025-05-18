@@ -7,5 +7,5 @@
 * Having difficulties in calculating the monthly average, did some research to resolve on COUNT(DISTINCT CONCAT(YEAR(transaction_date), '-', MONTH(transaction_date)))
 ### Question Three
 * The data for both comes from different tables (transactions in savings_savingsaccount, plans in plans_plan)	I Join both tables using plan_id and determine the type using is_fixed_investment flag
-
-* You need to decide whether to use amount or confirmed_amount from the savings_savingsaccount table — the safer choice for real deposits is usually confirmed_amount.
+### Question Four
+* I was wondering  whether to use amount or confirmed_amount from the savings_savingsaccount table, I later resolved on using confirmed_amount.
